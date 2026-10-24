@@ -1,0 +1,317 @@
+/* @media (min-width: 375px) and (max-width: 480px) {
+   
+} */
+
+@media (min-width: 375px) and (max-width: 480px){
+    .blog-menu .icon-menu {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .blog-menu .icon-menu button{
+        font-size: 2rem;
+    }
+    .blog-menu .menu.active {
+        width: 100%;
+    }
+    .blog-menu .menu .icon-bit h4 {
+        margin-left: 0px;
+        font-size: 1rem;
+    }
+    .blog-menu .menu .icon-bit button {
+        font-size: 1rem;
+    }
+    .menus ul li a {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+    }
+    /* ---- */
+    .sliders {
+        display: flex;
+        flex: 0 0 auto;
+        width: max-content;
+        gap: 0;
+    }
+    .slideImg {
+        flex: 0 0 auto;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .slideImg img {
+        display: block;
+        height: 100%;
+        width: auto;
+        max-width: none;
+    } 
+    /* ---- */
+    .container .main {
+        width: 100%;
+        padding:10px;
+    }
+    .blog-bio span {
+        font-size: 1.2rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+    }
+    .blog-bio .first-text {
+        margin-bottom: 50px;
+    }
+    .blog-bio .text {
+        margin-top: 50px;
+    }
+    .blog-bio p {
+        font-size:1rem;
+    }
+    .site span {
+        font-size: 1rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+    }
+    .main .imageSite {
+        width: 70%;
+    }
+    .button button img{
+        width: 25%;
+        object-fit: contain;
+    }
+    .form {
+        width: 90%;
+        margin: auto;
+    }
+    .form p {
+        margin: 20px 0px;
+        font-size: 1.5rem;
+    }
+    .form form label {
+        font-size: 1rem;
+        padding: 5px 0px;
+        margin-top: 5;
+    }
+    .form form input {
+        font-size: 1rem;
+        padding: 5px;
+        border-bottom: 1px solid #3D2314;
+        font-size: 1rem;
+    }
+    .btn button{
+        font-size: 1rem;
+    }
+    .imgFoot {
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #3D2314;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFoot p {
+        font-size: 0.9rem;
+    }
+    .imgFoot .img {
+        width: 70%;
+    }
+    .footer {
+        margin: 10px 0px;
+    }
+    .footer .text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .footer .thanks {
+        width: 50%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .blog-menu .icon-menu {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .blog-menu .icon-menu button{
+        font-size: 1.5rem;
+    }
+
+    .blog-menu .menu.active {
+        width: 100%;
+    }
+    .blog-menu .menu .icon-bit h4 {
+        margin-left: 0px;
+        font-size: 1rem;
+    }
+    .blog-menu .menu .icon-bit button {
+        font-size: 1rem;
+    }
+    .menus ul li a {
+        font-size: 1rem;
+        padding: 15px 30px;
+    }
+
+   /* .sliders {
+        display: flex;
+        width: max-content;
+        flex: 0 0 auto;
+    }
+    .slideImg {
+        flex: 0 0 100vw; 
+        height: 100%;
+    } */
+     
+     .slideImg {
+        height: 400px;
+        flex: 0 0 auto;
+        overflow: hidden;
+    }
+
+
+    .container .main {
+        width: 100%;
+        padding:20px;
+    }
+    .blog-bio span {
+        font-size: 1rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+    }
+    .blog-bio .first-text {
+        margin-bottom: 50px;
+    }
+    .blog-bio .text {
+        margin-top: 50px;
+    }
+    .blog-bio p {
+        font-size: 1rem;
+    }
+    .site span {
+        font-size: 1rem;
+        letter-spacing: 4px;
+        font-weight: 500;
+    }
+    .main .imageSite {
+        width: 70%;
+    }
+    .form {
+        width: 90%;
+        margin: auto
+    }
+    .form p {
+        margin: 20px 0px;
+        font-size: 1.5rem;
+    }
+    .form form label {
+        font-size: 1rem;
+        padding: 5px 0px;
+        margin-top: 5;
+    }
+    .form form input {
+        font-size: 1rem;
+        padding: 5px;
+        border-bottom: 1px solid #3D2314;
+        font-size: 1rem;
+    }
+    .btn button{
+        font-size: 1rem;
+    }
+    .imgFoot {
+        margin-top: 20px;
+        padding-top:20px ;
+        border-top: 1px solid #3D2314;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFoot p {
+        font-size: 0.9rem;
+    }
+    .imgFoot .img {
+        width: 70%;
+    }
+    .footer {
+        margin: 10px 0px;
+    }
+    .footer .text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .footer .thanks {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .blog-menu .icon-menu {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .blog-menu .icon-menu button{
+        font-size: 1.5rem;
+    }
+
+    .blog-menu .menu.active {
+        width: 50%;
+    }
+    .blog-menu .menu .icon-bit h4 {
+        margin-left: 0px;
+        font-size: 1rem;
+    }
+    .blog-menu .menu .icon-bit button {
+        font-size: 1.2rem;
+    }
+    .menus ul li a {
+        font-size: 1rem;
+        padding: 15px 30px;
+    }
+     .slideImg {
+        height: 500px;
+        flex: 0 0 auto;
+        overflow: hidden;
+    }
+    .main .logoImg {
+        width: 50%;
+    }
+    .blog-bio span {
+        font-size: 1.2rem;
+        letter-spacing: 15px;
+    }
+    .site span {
+        font-size: 1.2rem;
+        letter-spacing: 15px;
+    }
+     .form p {
+        margin: 20px 0px;
+        font-size: 1.5rem;
+    }
+     .form {
+        width: 60%;
+        margin: auto
+    }
+    .imgFoot {
+        margin-top: 20px;
+        padding-top:20px ;
+        border-top: 1px solid #3D2314;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFoot p {
+        font-size: 0.9rem;
+    }
+    .imgFoot .img {
+        width: 60%;
+    }
+    .footer {
+        margin: 10px 0px;
+    }
+    .footer .text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .footer .thanks {
+        width: 50%;
+    }
+}
+/* @media (min-width: 1025px) and (max-width: 1280px) */
